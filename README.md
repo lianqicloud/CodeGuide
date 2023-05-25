@@ -1,6 +1,25 @@
 # CodeGuide
 前端代码规范
 
+[git规范](https://github.com/lianqicloud/CodeGuide/blob/main/GitGuide.md)
+
+## JavaScript
+
+
+- 使用 2 个空格缩进。eslint: [indent](https://eslint.org/docs/rules/indent)
+- 使用分号。eslint: [semi](https://eslint.org/docs/rules/semi)
+- 始终使用大括号包裹代码块。eslint: [curly](https://eslint.org/docs/rules/curly) [nonblock-statement-body-position](https://eslint.org/docs/rules/nonblock-statement-body-position)
+- 空格风格。eslint: [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks) [keyword-spacing](https://eslint.org/docs/rules/keyword-spacing) [space-in-parens](https://eslint.org/docs/rules/space-in-parens) [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing) [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing) [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops) [key-spacing](https://eslint.org/docs/rules/key-spacing)
+- 对于逗号分隔的多行结构，始终加上最后一个逗号。eslint: [comma-dangle](https://eslint.org/docs/rules/comma-dangle)
+
+- ...
+
+对于js/es ，现在基本都是通过 [ESlint](https://github.com/eslint/eslint) 做代码风格统一。
+我们采用国内使用比较多的 [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy) 配置规范，它适用于 React / Vue / Typescript 项目，样式规则交给 [Prettier](https://prettier.io/)  管理
+
+> ⚠️ 需在 IDE 中安装 ESLint 扩展才会有提示
+
+
 
 ## HTML
 
@@ -149,22 +168,6 @@ PC端模版：
 
 
  
-## JavaScript
-
-
-- 使用 2 个空格缩进。eslint: [indent](https://eslint.org/docs/rules/indent)
-- 使用分号。eslint: [semi](https://eslint.org/docs/rules/semi)
-- 始终使用大括号包裹代码块。eslint: [curly](https://eslint.org/docs/rules/curly) [nonblock-statement-body-position](https://eslint.org/docs/rules/nonblock-statement-body-position)
-- 空格风格。eslint: [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks) [keyword-spacing](https://eslint.org/docs/rules/keyword-spacing) [space-in-parens](https://eslint.org/docs/rules/space-in-parens) [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing) [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing) [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops) [key-spacing](https://eslint.org/docs/rules/key-spacing)
-- 对于逗号分隔的多行结构，始终加上最后一个逗号。eslint: [comma-dangle](https://eslint.org/docs/rules/comma-dangle)
-
-- ...
-
-对于js/es ，现在基本都是通过 [ESlint](https://github.com/eslint/eslint) 做代码风格统一。
-我们采用国内使用比较多的 [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy) 配置规范，它适用于 React / Vue / Typescript 项目，样式规则交给 [Prettier](https://prettier.io/)  管理
-
-> ⚠️ 需在 IDE 中安装 ESLint 扩展才会有提示
-
 ## 参考
 
 - [ES6编程风格 - 阮一峰](https://es6.ruanyifeng.com/#docs/style)
